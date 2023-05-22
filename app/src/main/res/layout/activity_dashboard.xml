@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="158dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginBottom="506dp"
+        android:cropToPadding="true"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_lock_idle_lock" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="158dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginBottom="506dp"
+        android:cropToPadding="true"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_lock_idle_lock" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="158dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="374dp"
+        android:layout_marginBottom="5dp"
+        android:cropToPadding="true"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_lock_idle_lock" />
+</androidx.constraintlayout.widget.ConstraintLayout>
