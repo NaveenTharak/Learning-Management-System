@@ -13,6 +13,18 @@
         android:theme="@style/Theme.LMSFINALAPP"
         tools:targetApi="31">
         <activity
+            android:name=".Grades"
+            android:exported="false" />
+        <activity
+            android:name=".LectureMaterial"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LectureShedule"
+            android:exported="false" />
+        <activity
             android:name=".Dashboard"
             android:exported="false" />
         <activity
